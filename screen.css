@@ -18,9 +18,6 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-header {
-  font-size:2em; }
-
 h2 {
   color:#8800ff;
   font-size:3em; }
@@ -29,7 +26,8 @@ body {
   line-height: 1;
   text-align: center;
   font-family: sans-serif;
-  color: #000000; }
+  color: #000000;
+  padding-top: 3.5rem; }
 
 a img {
   border: none; }
