@@ -5,3 +5,10 @@ document.addEventListener("DOMContentLoaded", function() {
       this.style.color = colors[this.colorID++%colors.length];
     }
 })
+
+$( document ).ready(function() {
+  $( "#middle" ).click(function() {
+    $( "#middle" ).fadeOut( "slow", function() {
+    });
+  });
+});
