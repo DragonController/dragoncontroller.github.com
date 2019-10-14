@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 $( document ).ready(function() {
-  $( "#middle" ).click(function() {
-    $( "#middle" ).fadeOut( "slow", function() {
+  $( "#profileIcon" ).click(function() {
+    $( "#profileIcon" ).fadeOut( "slow", function() {
     });
   });
 });
