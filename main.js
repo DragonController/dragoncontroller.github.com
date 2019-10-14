@@ -7,8 +7,13 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 $( document ).ready(function() {
+  $( "#middle" ).click(function() {
+    $( "#middle" ).fadeOut( "slow" );
+  });
+});
+
+$( document ).ready(function() {
   $( "#profileIcon" ).click(function() {
-    $( "#profileIcon" ).fadeOut( "slow", function() {
-    });
+    $( "#profileIcon" ).fadeOut( "slow" );
   });
 });
